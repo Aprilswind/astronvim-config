@@ -14,6 +14,17 @@ return {
   { import = "astrocommunity.colorscheme.oxocarbon", enabled = true },
   { import = "astrocommunity.colorscheme.poimandres", enabled = true },
   { import = "astrocommunity.colorscheme.tokyonight", enabled = true },
+  { import = "astrocommunity.colorscheme.onedarkpro", enabled = true },
+  { import = "astrocommunity.colorscheme.vscode", enabled = true },
+  {"Mofiqul/vscode.nvim"},
+  {
+    "olimorris/onedarkpro.nvim",
+    opts = {
+      options = {
+        highlight_inactive_windows = true,
+      },
+    },
+  },
   { -- further customize the options set by the community
     "catppuccin",
     opts = {
