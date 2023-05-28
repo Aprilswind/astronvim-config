@@ -29,6 +29,14 @@ return {
         lsp_trouble = true,
         ts_rainbow2 = true,
       },
+      color_overrides = {
+        all = {
+            text = "#ffffff",
+        },
+        mocha = {
+          base = "#2e2a2d"
+        },
+      }
     },
   },
   {

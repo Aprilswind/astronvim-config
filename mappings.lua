@@ -20,6 +20,10 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<S-j>"] = { "10j", desc = "Move 10 lines up" },
+    ["<S-k>"] = { "10k", desc = "Move 10 lines down" },
+    ["<S-h>"] = { "^", desc = "Move cursor to the first non-blank character" },
+    ["<S-l>"] = { "$", desc = "Move cursor to the end of the line" },
   },
   t = {
     -- setting a mapping to false will disable it
